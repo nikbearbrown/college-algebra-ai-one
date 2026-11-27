@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 670 390" role="img" aria-labelledby="title desc">
+  <title id="title">Price and requested reservations</title>
+  <desc id="desc">Two solid segments link price and demand (2,28), (5,22), (9,6). A triangle at (8,10) is the withheld observation. A dashed extension of the first segment reaches (8,16).</desc>
+  <rect width="670" height="390" fill="#fff"/>
+  <path d="M80 65H600 M80 145H600 M80 225H600 M80 305H600" stroke="#d4dfe6" stroke-width="1"/>
+  <path d="M80 65V305H600" fill="none" stroke="#17242d" stroke-width="2"/>
+  <g font-family="system-ui,sans-serif" font-size="16" fill="#17242d">
+    <text x="76" y="33">Requested reservations</text>
+    <text x="346" y="366" text-anchor="middle">Session price (dollars)</text>
+    <g text-anchor="end"><text x="71" y="70">30</text><text x="71" y="150">20</text><text x="71" y="230">10</text><text x="71" y="310">0</text></g>
+    <g text-anchor="middle"><text x="105" y="332">2</text><text x="303" y="332">5</text><text x="501" y="332">8</text><text x="567" y="332">9</text></g>
+  </g>
+  <path d="M105 305v7 M303 305v7 M501 305v7 M567 305v7" stroke="#17242d" stroke-width="2"/>
+  <path d="M303 129L501 177" fill="none" stroke="#79520f" stroke-width="3" stroke-dasharray="8 7"/>
+  <path d="M105 81L303 129L567 257" fill="none" stroke="#18537d" stroke-width="4"/>
+  <g fill="#18537d"><circle cx="105" cy="81" r="5"/><circle cx="303" cy="129" r="5"/><circle cx="567" cy="257" r="5"/></g>
+  <path d="M501 217l-8 15h16Z" fill="#fff" stroke="#142733" stroke-width="2"/>
+  <g font-family="system-ui,sans-serif" font-size="16" fill="#17242d">
+    <text x="112" y="71">(2,28)</text><text x="313" y="119">(5,22)</text>
+    <text x="574" y="251">(9,6)</text><text x="405" y="253">Held out: (8,10)</text>
+    <text x="507" y="172">Extension: 16</text>
+  </g>
+</svg>
